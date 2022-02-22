@@ -1,10 +1,6 @@
-import numpy as np
 import pandas as pd
-import csv
 import openpyxl
-import datetime as dt
 import os
-import calendar
 import xlrd
 
 # Uma observação, o backlog é por dia e não por estado. Não associar o backlog ao estado. Associar ao dia, mês e ano
