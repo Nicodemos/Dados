@@ -62,7 +62,7 @@ for pastas_mes in dirs:
                          tamanho_rec = tamanho_pos*2
                          recebidas = df_temp['RESULTADO'].iloc[tamanho_pos:tamanho_rec]
 
-                         if len(recebidas.values)<2: # Nem não é em todas as planilhas que tem a informação de amostras recebidas,
+                         if len(recebidas.values)<2: # Nem não são em todas as planilhas que têm a informações de amostras recebidas,
                               pass
                          else:
                               # faz o cálculo do backlog das amostras
